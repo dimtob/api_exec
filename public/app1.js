@@ -32,6 +32,7 @@ $(document).ready(function(){
 
 
 //-----------------FUNCTIONS-------------------------//
+
 // funtion to list all the todos me to anoigma tis selidas//
 function listTodos(data){
     data.forEach(function(el){
