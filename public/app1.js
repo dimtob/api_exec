@@ -1,5 +1,6 @@
 /* global $ */
-var url1="https://webdev-course-dimtob.c9users.io/api/todos"
+//var url1="https://webdev-course-dimtob.c9users.io/api/todos"
+var url1="https://infinite-stream-51795.herokuapp.com/"
 $(document).ready(function(){
     // fortoma json
     $.getJSON(url1)
