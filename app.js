@@ -18,7 +18,7 @@ app.use(express.static(__dirname +'/public'));
 //app.use(express.static(__dirname + '/views'));
 
 
-// MAIN APP ROUTES//
+// MAIN APP ROUTE//
 app.get('/', function(req, res){
     res.sendFile('views/main.html', {root: __dirname });
 });

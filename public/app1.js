@@ -51,6 +51,7 @@ function listTodos(data){
 function createTodo(){
     // περνω την τιμη του input
     var new1= $("#todoInput").val();
+    if (new1 && /\S/.test(new1)){
     //stelno post request
     $.post(url1, {name:new1})
     .then(function(newtoto){
@@ -67,6 +68,7 @@ function createTodo(){
         //kano append to li 
         $("ul").append(text1)
     })
+    }else {alert("not valid input")}
 }
 
 //DELETE TO DOS//
